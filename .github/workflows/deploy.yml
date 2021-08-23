@@ -18,6 +18,7 @@ jobs:
           persist-credentials: false
 
       - name: Deploy 🔧 # Build the Project
+        context: .
         run: |
           npm install
           npm run deploy
