@@ -19,9 +19,15 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
 
-      - name: Deploy 🔧 # Build the Project
+      - name: Install and Build 🔧 # Build the Project
         run: |
           npm install
-          git config --global user.name "Hamabenismail"
-          git config --global user.email "mohamedwaelbenismail@gmail.com"
-          npm run deploy
+          npm run build
+
+      - name: Deploy
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: master
+          FOLDER: build
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
