@@ -24,3 +24,4 @@ jobs:
           npm install
           git config --global user.name "Hamabenismail"
           git config --global user.email "mohamedwaelbenismail@gmail.com"
+          npm run deploy
