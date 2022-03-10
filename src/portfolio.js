@@ -14,7 +14,10 @@ const greeting = {
   username: "Mohamed Ben Ismail",
   title: "Hi all, I'm Mohamed Ben Ismail",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+   [ `A passionate DevOps engineer and Full Stack Software Developer
+   🚀 having an experience in building, deploying and maintaining Web and Mobile applications in cloud or  on-premises environments. `
+  ]  
+
   ),
   resumeLink:
     "https://drive.google.com/file/d/1M6Z9jBzHAZLtOWBOLuBjZdfCe9QKYewK/view?usp=sharing",
@@ -27,9 +30,9 @@ const socialMediaLinks = {
   github: "https://github.com/Hamabenismail",
   linkedin: "https://www.linkedin.com/in/benismail/",
   gmail: "mohamedwaelbenismail@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  medium: "https://medium.com/@saadpasta",
-  // Instagram and Twitter are also supported in the links!
+  // gitlab: "https://gitlab.com/saadpasta",
+  medium: "https://medium.com/@mohamedwaelbenismail",
+  // Instagram and Twitter are also suptported in the links!
   display: true // Set true to display this section, defaults to false
 };
 
@@ -37,7 +40,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY Engineer WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
