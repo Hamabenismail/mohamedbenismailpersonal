@@ -165,29 +165,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Lead Tech",
+      company: "Vayetek",
+      companylogo: require("./assets/images/vayetek.jpg"),
+      date: "September 2020 - January 2021",
+      desc: "Project: Event management platform \"Eventizer\"",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Managing a team of four developers following agile scrum methodology",       
+        "Working with the commercial team to identify new features to be developed",
+        "Creating CI/CD infrastructure using Gitlab+docker+Ansible ",
+        "Code review and technical validation of Features"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Part-time job as a full-stack developer (Angular + Laravel : Cloud infrastructure)",
+      company: "Vayetek",
+      companylogo: require("./assets/images/vayetek.jpg"),
+      date: "February 2020 - September 2020",
+      desc: "Project: Event management platform \"Eventizer\"",
+      descBullets: [
+        "Application architecture design (Database and code design) ",
+        "Implementing Frontend features",
+        "Implementing Backend features",
+        "Creating unit/integration tests",
+        "code refactoring"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Full stack developer internship (Angular + spring Boot)",
+      company: "Seemantov ",
+      companylogo: require("./assets/images/seemantov.jpg"),
+      date: "August 2019 - November 2019",
+      desc: "Project: Pharmacy management platform \"LinkyPharm\"",
+      descBullets: [
+        "Implementing the front side using Angular",
+        "Implementing Rest APIs using Spring boot",
+        "Implementing front-end and back-end unit/integration tests "
+      ]
     }
   ]
 };
@@ -300,16 +314,16 @@ const blogSection = {
 
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://bit.ly/3d1lcCM",
+      title: "How to automate build and deployment to your AWS ec2-instance",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Angular Application CI/CD with Gitlab , Docker and Ansible"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://link.medium.com/8xRSo4YaN5",
+      title: "How to build deep and meaningful relationships with others",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
