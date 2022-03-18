@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0b0c3a4faa980222a10497604c8bd0d3",
+    "revision": "285706d162e1a573556135325e564135",
     "url": "/index.html"
   },
   {
-    "revision": "f1096c41c94c330df5b9",
+    "revision": "ed37dd81c506e4292bcd",
     "url": "/static/css/3.25727338.chunk.css"
   },
   {
-    "revision": "af24f637eeb4a7667285",
+    "revision": "c0475ec7b7b0a50dba64",
     "url": "/static/css/4.a8329f31.chunk.css"
   },
   {
-    "revision": "c564b56e3753fabda213",
+    "revision": "3f2fc131e8d685f938c6",
     "url": "/static/css/main.58256005.chunk.css"
   },
   {
-    "revision": "ec4b6cf5440611b501c1",
-    "url": "/static/js/2.cf6295b1.chunk.js"
+    "revision": "7411c620aa6ac957d25a",
+    "url": "/static/js/2.a103bf06.chunk.js"
   },
   {
     "revision": "6e1d2efc12a1ac972ff1f942df7eb0bd",
-    "url": "/static/js/2.cf6295b1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.a103bf06.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f1096c41c94c330df5b9",
-    "url": "/static/js/3.85261940.chunk.js"
+    "revision": "ed37dd81c506e4292bcd",
+    "url": "/static/js/3.a57c35a1.chunk.js"
   },
   {
-    "revision": "af24f637eeb4a7667285",
-    "url": "/static/js/4.fedcd584.chunk.js"
+    "revision": "c0475ec7b7b0a50dba64",
+    "url": "/static/js/4.b90dda76.chunk.js"
   },
   {
-    "revision": "c564b56e3753fabda213",
-    "url": "/static/js/main.93e6e9e1.chunk.js"
+    "revision": "3f2fc131e8d685f938c6",
+    "url": "/static/js/main.20ea2bb6.chunk.js"
   },
   {
-    "revision": "7087b6d0cbfa962cfffa",
-    "url": "/static/js/runtime-main.529f82ab.js"
+    "revision": "524245d2074fb54abf0e",
+    "url": "/static/js/runtime-main.4313a4ad.js"
   },
   {
     "revision": "a3752c4bf72688b3db38d0911cf75f61",
@@ -64,10 +64,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/googleAssistantLogo.e79c6392.webp"
   },
   {
-    "revision": "35ef5e915631be2c31ccdff55b53db29",
-    "url": "/static/media/harvardLogo.35ef5e91.png"
-  },
-  {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/static/media/manOnTable.52be3144.svg"
   },
@@ -84,19 +80,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/saayaHealthLogo.25018d29.webp"
   },
   {
+    "revision": "db0e523144c21ffb543b5c117361f7ea",
+    "url": "/static/media/seemantov-blue-logo.db0e5231.svg"
+  },
+  {
     "revision": "3440939881da8339d1597e8d77cdf850",
     "url": "/static/media/skill.34409398.svg"
   },
   {
-    "revision": "3b758ef56d398145542e137daa28e392",
-    "url": "/static/media/stanfordLogo.3b758ef5.png"
-  },
-  {
     "revision": "13780cdd0144cacdef25486e2c2503f8",
     "url": "/static/media/talksCardBack.13780cdd.svg"
-  },
-  {
-    "revision": "3a838ac2408c3b841c6406886894c5ab",
-    "url": "/static/media/vayetek.3a838ac2.jpg"
   }
 ]);
