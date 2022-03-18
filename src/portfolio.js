@@ -117,23 +117,11 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "National institute of applied Science and technology",
+      logo: require("./assets/images/insat.png"),
+      subHeader: "Engineering in  in Computer Science",
+      duration: "September 2017 - September 2022",
+     
     }
   ]
 };
@@ -167,7 +155,7 @@ const workExperiences = {
     {
       role: "Lead Tech",
       company: "Vayetek",
-      companylogo: require("./assets/images/vayetek.jpg"),
+      companylogo: require("./assets/images/vayetek.png"),
       date: "September 2020 - January 2021",
       desc: "Project: Event management platform \"Eventizer\"",
       descBullets: [
@@ -180,7 +168,7 @@ const workExperiences = {
     {
       role: "Part-time job as a full-stack developer (Angular + Laravel : Cloud infrastructure)",
       company: "Vayetek",
-      companylogo: require("./assets/images/vayetek.jpg"),
+      companylogo: require("./assets/images/vayetek.png"),
       date: "February 2020 - September 2020",
       desc: "Project: Event management platform \"Eventizer\"",
       descBullets: [
@@ -194,7 +182,7 @@ const workExperiences = {
     {
       role: "Full stack developer internship (Angular + spring Boot)",
       company: "Seemantov ",
-      companylogo: require("./assets/images/seemantov.jpg"),
+      companylogo: require("./assets/images/seemantov-blue-logo.svg"),
       date: "August 2019 - November 2019",
       desc: "Project: Pharmacy management platform \"LinkyPharm\"",
       descBullets: [
