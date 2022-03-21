@@ -153,6 +153,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software engineering",
+      company: "Deepmetis",
+      companylogo: require("./assets/images/deepmetis.jpeg"),
+      date: "September 2020 - January 2021",
+      desc: "Project: Locating useful sites for planting solar panels \"Deepmetis\"",
+      descBullets: [
+        "Developing APIS using flask",
+        "Developing Frontend using vuejs",
+        "Designing Dynamodb schemas",
+        "Deploying the app to a serveless architechture",      
+        "Creating CI/CD pipelines"
+      ]
+    },
+    {
       role: "Lead Tech",
       company: "Vayetek",
       companylogo: require("./assets/images/vayetek.png"),
@@ -166,7 +180,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Part-time job as a full-stack developer (Angular + Laravel : Cloud infrastructure)",
+      role: "Part-time job as a full-stack developer ",
       company: "Vayetek",
       companylogo: require("./assets/images/vayetek.png"),
       date: "February 2020 - September 2020",
@@ -180,10 +194,10 @@ const workExperiences = {
       ]
     },
     {
-      role: "Full stack developer internship (Angular + spring Boot)",
+      role: "Full stack developer internship",
       company: "Seemantov ",
-      companylogo: require("./assets/images/seemantov-blue-logo.svg"),
-      date: "August 2019 - November 2019",
+      companylogo: require("./assets/images/seemantov.jpg"),
+      date: `August 2019 - November 2019`,
       desc: "Project: Pharmacy management platform \"LinkyPharm\"",
       descBullets: [
         "Implementing the front side using Angular",
@@ -209,20 +223,20 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/eventizer-bg.png"),
+      projectName: "Eventizer",
+      projectDesc: "Event management platform",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://eventizer.io/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
+      image: require("./assets/images/index.png"),
+      projectName: "GeoMetis",
       projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       footerLink: [
         {
@@ -245,48 +259,15 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AWS associate certified developer",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "",
+      image: require("./assets/images/aws-logo.png"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://www.credly.com/badges/c8d433a2-a5c7-4998-9b4b-d4a9cecfb978?source=linked_in_profile"
         },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
       ]
     }
   ],
@@ -301,6 +282,12 @@ const blogSection = {
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
 
   blogs: [
+    {
+      url: "https://mohamedwaelbenismail.medium.com/serverless-vs-server-based-architectures-3ef054216608",
+      title: "Why I think that small companies/startups should use serverless architecture.",
+      description:
+        "Serverless vs server-based architectures."
+    },
     {
       url: "https://bit.ly/3d1lcCM",
       title: "How to automate build and deployment to your AWS ec2-instance",

@@ -41,7 +41,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <img
           crossOrigin={"anonymous"}
           ref={imgRef}
-          className={''}
+          className={cardInfo.company == 'Vayetek' ? '': 'experience-roundedimg'}
           src={cardInfo.companylogo}
           alt={cardInfo.company}
           onLoad={() => getColorArrays()}
